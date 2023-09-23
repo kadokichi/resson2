@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+ <html lang="ja">
+ <head>
+ <meta charset="utf-8">
+ <link rel="stylesheet" href="main2.css">
+ <title>電卓</title>
+ </head>
+ 
+ <body>
+   
+   <table>
+     <tr>
+       <td colspan="4">
+        <input class="display" id="result" type="text" value="0" readonly>
+       </td>
+     </tr>
+     
+     <tr>
+       <td>
+        <button id="button" onclick="clickButton(this)">7</button>
+       </td>
+       <td>
+        <button id="button" onclick="clickButton(this)">8</button>
+       </td>
+       <td>
+        <button id="button" onclick="clickButton(this)">9</button>
+       </td>
+       <td>
+        <button id="button" onclick="clickButton(this)">+</button>
+       </td>
+     </tr>
+     
+     <tr>
+       <td>
+        <button id="button" onclick="clickButton(this)">4</button>
+       </td>
+       <td>
+        <button id="button" onclick="clickButton(this)">5</button>
+       </td>
+       <td>
+        <button id="button" onclick="clickButton(this)">6</button>
+       </td>
+       <td>
+        <button id="button" onclick="clickButton(this)">-</button>
+       </td>
+     </tr>
+     
+     <tr>
+       <td>
+        <button id="button" onclick="clickButton(this)">1</button>
+       </td>
+       <td>
+        <button id="button" onclick="clickButton(this)">2</button>
+       </td>
+       <td>
+        <button id="button" onclick="clickButton(this)">3</button>
+       </td>
+       <td>
+        <button id="button" onclick="clickButton(this)">*</button>
+       </td>
+     </tr>
+     
+     <tr>
+       <td>
+        <button id="button" onclick="clickButton(this)">0</button>
+       </td>
+       <td>
+        <button id="button" onclick="clickButton(this)">00</button>
+       </td>
+       <td>
+        <button id="limit-button" onclick="clickButton(this)">.</button>
+       </td>
+       <td>
+        <button id="button" onclick="clickButton(this)">/</button>
+       </td>
+     </tr>
+     
+     <tr>
+       <td colspan="2">
+        <button class="wide-button" id="button" onclick="clickButton(this)">AC</button>
+       </td>
+       <td colspan="2">
+        <button class="wide-button" id="button" onclick="clickButton(this)">=</button>
+       </td>
+     </tr>
+   </table>
+ 
+ 
+ <script src="main2.js"></script>
+ </body>
+ </html>
